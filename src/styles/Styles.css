@@ -1,8 +1,29 @@
-.calc_container {
+@font-face {
+    font-family: 'calcFont';
+    src: url('../assets/fonts/digital-7.ttf') format(truetype);
+}
+
+.calc-container {
     padding: 20px;
 }
 
-.calc_header {
-    width: 400px;
-    height: 500px;
+.result-container {
+    font-size: 40pt;
+    font-family: 'calcFont';
+    border: 10px solid #6c757d;
+    border-top: none;
+    background-color: #c3d6da;
+}
+
+.input-container {
+    font-size: 40pt;
+    font-family: 'calcFont';
+    border: 10px solid #6c757d;
+    border-bottom: none;
+    background-color: #c3dacf;
+}
+
+.calc-head {
+    font-size: 40pt;
+    font-family: 'calcFont';
 }
