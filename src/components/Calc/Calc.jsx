@@ -10,7 +10,6 @@ const Calc = () => {
   const inputSymbols = labels.inputSymbols;
   const specialChar = ['%', 'X', '+', '-', '/', '='];
   const handleResponse = (e) => {
-    // console.log(inputs.length);
     if (e.target.value === 'AC') {
       setInputs('0');
       setResult(0);
@@ -30,7 +29,6 @@ const Calc = () => {
     }
 
   }
-  // console.log(inputs);
 
   return (
     <div className='calc-container'>
